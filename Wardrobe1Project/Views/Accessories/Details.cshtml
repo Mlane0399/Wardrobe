@@ -1,0 +1,66 @@
+﻿@model Wardrobe1Project.Models.Accessory
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Accessory</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AccessoriesName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AccessoriesName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AccessoriesPhoto)
+        </dt>
+
+        <dd>
+            <img src="@Html.DisplayFor(model => model.AccessoriesPhoto)" />
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AccessoriesType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AccessoriesType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AccessoriesColor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AccessoriesColor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AccessoriesSeason)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AccessoriesSeason)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AccessoriesOccasion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AccessoriesOccasion)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.AccessoriesID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

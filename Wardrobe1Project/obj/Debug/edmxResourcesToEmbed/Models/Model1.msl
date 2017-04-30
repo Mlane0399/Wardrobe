@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Wardrobe1ModelStoreContainer" CdmEntityContainer="Wardrobe1Entities">
+    <EntitySetMapping Name="Accessories">
+      <EntityTypeMapping TypeName="Wardrobe1Model.Accessory">
+        <MappingFragment StoreEntitySet="Accessories">
+          <ScalarProperty Name="AccessoriesID" ColumnName="AccessoriesID" />
+          <ScalarProperty Name="AccessoriesName" ColumnName="AccessoriesName" />
+          <ScalarProperty Name="AccessoriesPhoto" ColumnName="AccessoriesPhoto" />
+          <ScalarProperty Name="AccessoriesType" ColumnName="AccessoriesType" />
+          <ScalarProperty Name="AccessoriesColor" ColumnName="AccessoriesColor" />
+          <ScalarProperty Name="AccessoriesSeason" ColumnName="AccessoriesSeason" />
+          <ScalarProperty Name="AccessoriesOccasion" ColumnName="AccessoriesOccasion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bottoms">
+      <EntityTypeMapping TypeName="Wardrobe1Model.Bottom">
+        <MappingFragment StoreEntitySet="Bottoms">
+          <ScalarProperty Name="BottomID" ColumnName="BottomID" />
+          <ScalarProperty Name="BottomName" ColumnName="BottomName" />
+          <ScalarProperty Name="BottomPhoto" ColumnName="BottomPhoto" />
+          <ScalarProperty Name="BottomType" ColumnName="BottomType" />
+          <ScalarProperty Name="BottomColor" ColumnName="BottomColor" />
+          <ScalarProperty Name="BottomSeason" ColumnName="BottomSeason" />
+          <ScalarProperty Name="BottomOccasion" ColumnName="BottomOccasion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Outfits">
+      <EntityTypeMapping TypeName="Wardrobe1Model.Outfit">
+        <MappingFragment StoreEntitySet="Outfits">
+          <ScalarProperty Name="OutfitID" ColumnName="OutfitID" />
+          <ScalarProperty Name="TopID" ColumnName="TopID" />
+          <ScalarProperty Name="BottomID" ColumnName="BottomID" />
+          <ScalarProperty Name="ShoeID" ColumnName="ShoeID" />
+          <ScalarProperty Name="AccessoriesID" ColumnName="AccessoriesID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Shoes">
+      <EntityTypeMapping TypeName="Wardrobe1Model.Sho">
+        <MappingFragment StoreEntitySet="Shoes">
+          <ScalarProperty Name="ShoeID" ColumnName="ShoeID" />
+          <ScalarProperty Name="ShoeName" ColumnName="ShoeName" />
+          <ScalarProperty Name="ShoePhoto" ColumnName="ShoePhoto" />
+          <ScalarProperty Name="ShoeType" ColumnName="ShoeType" />
+          <ScalarProperty Name="ShoeColor" ColumnName="ShoeColor" />
+          <ScalarProperty Name="ShoeSeason" ColumnName="ShoeSeason" />
+          <ScalarProperty Name="ShoeOccasion" ColumnName="ShoeOccasion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tops">
+      <EntityTypeMapping TypeName="Wardrobe1Model.Top">
+        <MappingFragment StoreEntitySet="Tops">
+          <ScalarProperty Name="TopID" ColumnName="TopID" />
+          <ScalarProperty Name="TopName" ColumnName="TopName" />
+          <ScalarProperty Name="TopPhoto" ColumnName="TopPhoto" />
+          <ScalarProperty Name="TopType" ColumnName="TopType" />
+          <ScalarProperty Name="TopColor" ColumnName="TopColor" />
+          <ScalarProperty Name="TopSeason" ColumnName="TopSeason" />
+          <ScalarProperty Name="TopOccasion" ColumnName="TopOccasion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
