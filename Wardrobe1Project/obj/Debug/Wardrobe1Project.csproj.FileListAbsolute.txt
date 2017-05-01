@@ -77,7 +77,6 @@ c:\users\wecancodeit\documents\visual studio 2015\Projects\Wardrobe1Project\Ward
 c:\users\wecancodeit\documents\visual studio 2015\Projects\Wardrobe1Project\Wardrobe1Project\bin\Microsoft.Owin.Security.Google.xml
 c:\users\wecancodeit\documents\visual studio 2015\Projects\Wardrobe1Project\Wardrobe1Project\bin\Microsoft.Owin.Security.Twitter.xml
 c:\users\wecancodeit\documents\visual studio 2015\Projects\Wardrobe1Project\Wardrobe1Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-c:\users\wecancodeit\documents\visual studio 2015\Projects\Wardrobe1Project\Wardrobe1Project\obj\Debug\Wardrobe1Project.csprojResolveAssemblyReference.cache
 c:\users\wecancodeit\documents\visual studio 2015\Projects\Wardrobe1Project\Wardrobe1Project\obj\Debug\Wardrobe1Project.dll
 c:\users\wecancodeit\documents\visual studio 2015\Projects\Wardrobe1Project\Wardrobe1Project\obj\Debug\Wardrobe1Project.pdb
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Wardrobe1Project\Wardrobe1Project\bin\roslyn\csc.exe.config

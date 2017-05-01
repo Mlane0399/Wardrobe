@@ -259,6 +259,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\BACKGROUND.jpg" />
     <Content Include="Content\Images\blackflats.jpg" />
     <Content Include="Content\Images\blackheels.jpg" />
     <Content Include="Content\Images\blueflats.jpg" />
@@ -270,15 +271,18 @@
     <Content Include="Content\Images\greypullover.jpg" />
     <Content Include="Content\Images\gucciloafers.jpg" />
     <Content Include="Content\Images\handbag.jpg" />
+    <Content Include="Content\Images\icelandphoto.jpg" />
     <Content Include="Content\Images\jeans.jpg" />
     <Content Include="Content\Images\orangepants.jpg" />
     <Content Include="Content\Images\pinkanimalsweater.jpg" />
     <Content Include="Content\Images\pinkpolo.jpg" />
     <Content Include="Content\Images\printedpants.jpg" />
     <Content Include="Content\Images\purpletop.jpg" />
+    <Content Include="Content\Images\rayban.jpg" />
     <Content Include="Content\Images\redpants.jpg" />
     <Content Include="Content\Images\sunglasses.jpg" />
     <Content Include="Content\Images\whitepants.jpg" />
+    <Content Include="Content\Stylesheet1.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

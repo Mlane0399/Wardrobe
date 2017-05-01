@@ -4,11 +4,13 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>SHOES</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Add Shoes", "Create")
 </p>
+<div class="container">
+<div class="table-responsive">
 <table class="table">
     <tr>
         <th>
@@ -31,6 +33,7 @@
         </th>
         <th></th>
     </tr>
+  
 
 @foreach (var item in Model) {
     <tr>
@@ -61,3 +64,5 @@
 }
 
 </table>
+</div>
+</div>

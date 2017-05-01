@@ -24,7 +24,7 @@ namespace Wardrobe1Project
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/Stylesheet1.css",
                       "~/Content/site.css"));
         }
     }
